@@ -23,6 +23,8 @@ class CreateMoviesTable extends Migration
             $table->string('poster');
             $table->datetime('published_at')->nullable();
             $table->timestamps();
+            $table->unsignedBigInteger('user_id');
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
