@@ -34,11 +34,32 @@
             name="title"
             value="{{ $movie->title }}"
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+        <input 
+            type="text"
+            name="director"
+            value="{{ $movie->director }}"
+            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+
+        <input 
+            type="text"
+            name="actors"
+            value="{{ $movie->actors }}"
+            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
         <textarea 
             name="description"
             placeholder="Description..."
             class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none">{{ $movie->description }}</textarea> 
+
+        <input
+            type="range"
+            name="rating"
+            class="rating"
+            max="5"
+            oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)"
+            step="0.5"
+            style="--value:2.5"    
+            value="2.5">
 
         <button    
             type="submit"
