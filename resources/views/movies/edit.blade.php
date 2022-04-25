@@ -3,7 +3,7 @@
 @section('content')
 <div class="w-4/5 m-auto text-left">
     <div class="py-15">
-        <h1 class="text-6xl">
+        <h1 class="text-6xl text-white font-bold">
             Update Movie
         </h1>
     </div>
@@ -33,33 +33,23 @@
             type="text"
             name="title"
             value="{{ $movie->title }}"
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-6xl text-white outline-none">
         <input 
             type="text"
             name="director"
             value="{{ $movie->director }}"
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-4xl text-white outline-none">
 
         <input 
             type="text"
             name="actors"
             value="{{ $movie->actors }}"
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-4xl text-white outline-none">
 
         <textarea 
             name="description"
             placeholder="Description..."
-            class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none">{{ $movie->description }}</textarea> 
-
-        <input
-            type="range"
-            name="rating"
-            class="rating"
-            max="5"
-            oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)"
-            step="0.5"
-            style="--value:2.5"    
-            value="2.5">
+            class="py-20 bg-transparent block border-b-2 w-full h-60 text-white text-xl outline-none">{{ $movie->description }}</textarea> 
 
         <button    
             type="submit"

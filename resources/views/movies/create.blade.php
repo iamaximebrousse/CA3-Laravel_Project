@@ -3,7 +3,7 @@
 @section('content')
 <div class="w-4/5 m-auto text-left">
     <div class="py-15">
-        <h1 class="text-6xl">
+        <h1 class="text-6xl text-white font-bold">
             Create Movie
         </h1>
     </div>
@@ -32,39 +32,28 @@
             type="text"
             name="title"
             placeholder="Title..."
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none text-white">
 
         <input 
             type="text"
             name="director"
             placeholder="Director..."
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-4xl outline-none text-white">
         
         <input 
             type="text"
             name="actors"
             placeholder="Actors..."
-            class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-4xl outline-none text-white">
 
         <textarea 
             name="description"
             placeholder="Description..."
-            class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none"></textarea>
-
-        <input
-            type="range"
-            name="rating"
-            class="rating"
-            max="5"
-            oninput="this.style.setProperty('--value', `${this.valueAsNumber}`)"
-            step="0.5"
-            style="--value:2.5"    
-            value="2.5">
-        
+            class="py-20 bg-transparent block border-b-2 w-full h-60 text-xl outline-none text-white"></textarea>
 
         <div class="bg-grey-lighter pt-15">
             <label class="w-44 flex flex-col items-center px-2 py-3 bg-white-rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer">
-                <span class="mt-2 text-base leading-normal">
+                <span class="mt-2 text-base leading-normal text-white">
                     Select a Poster
                 </span>
                 <input 

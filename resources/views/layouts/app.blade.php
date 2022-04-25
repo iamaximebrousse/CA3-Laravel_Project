@@ -15,17 +15,16 @@
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 </head>
-<body class="bg-gray-100 h-screen antialiased leading-none font-sans">
+<body class="bg-gray-700 h-screen antialiased leading-none font-sans">
     <div id="app">
-        <header class="bg-gray-800 py-6">
-            <div class="container mx-auto flex justify-between items-center px-6">
+        <header class="bg-gray-900 py-6">
+            <div class="container mx-auto flex justify-between items-center px-6 w-4/6">
                 <div>
-                    <a href="{{ url('/') }}" class="text-lg font-semibold text-gray-100 no-underline">
-                        {{ config('app.name', 'Laravel') }}
+                    <a href="/">
+                        <img src="https://www.designfreelogoonline.com/wp-content/uploads/2019/03/00132-Triangle-PLAY-logo-03.png" style="width: 50px;">
                     </a>
-                </div>
+                    </div>
                 <nav class="space-x-4 text-gray-300 text-sm sm:text-base">
-                    <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     <a class="no-underline hover:underline" href="/movies">Movies</a>
                     @guest
