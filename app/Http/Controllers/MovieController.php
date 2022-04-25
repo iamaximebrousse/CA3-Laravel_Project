@@ -46,7 +46,6 @@ class MovieController extends Controller
             'title' => 'required',
             'director' => 'required',
             'actors' => 'required',
-            'rating' => 'required',
             'description' => 'required',
             'image' => 'required|mimes:jpg,png,jpeg|max:5048'
         ]);
@@ -59,7 +58,6 @@ class MovieController extends Controller
             'title' => $request->input('title'),
             'director' => $request->input('director'),
             'actors' => $request->input('actors'),
-            'rating' => $request->input('rating'),
             'description' => $request->input('description'),
             'slug' => SlugService::createSlug(Movie::class, 'slug', $request->title),
             'poster' => $newImageName,
@@ -106,7 +104,6 @@ class MovieController extends Controller
             'title' => 'required',
             'director' => 'required',
             'actors' => 'required',
-            'rating' => 'required',
             'description' => 'required',
         ]);
 
@@ -115,7 +112,6 @@ class MovieController extends Controller
                  'title' => $request->input('title'),
                 'director' => $request->input('director'),
                 'actors' => $request->input('actors'),
-                'rating' => $request->input('rating'),
                 'description' => $request->input('description'),
                 'slug' => SlugService::createSlug(Movie::class, 'slug', $request->title),
                 'user_id' => auth()->user()->id

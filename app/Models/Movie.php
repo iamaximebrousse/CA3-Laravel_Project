@@ -11,7 +11,7 @@ class Movie extends Model
     use HasFactory;
     use Sluggable;
 
-    protected $fillable = ['title', 'description', 'director', 'actors', 'rating', 'poster', 'user_id'];
+    protected $fillable = ['title', 'description', 'director', 'actors', 'poster', 'user_id'];
 
     public function user()
     {
