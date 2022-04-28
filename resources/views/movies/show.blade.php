@@ -4,6 +4,12 @@
 
 <article id="aff_movies">
         <section id="left">
+             <a 
+                href="/movies"
+                class="uppercase bg-gray-900 text-white text-lg font-bold py-2 px-4 rounded-3xl">
+                back
+            </a>
+
             <h1>
                 {{ $movie->title }}
             </h1>

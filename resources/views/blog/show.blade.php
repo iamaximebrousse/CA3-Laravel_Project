@@ -4,7 +4,11 @@
 <div class="w-4/6 m-auto text-left" id="BG">
         <img src="{{ asset('images/' . $post->image_path) }}" alt="" id="img_BG">
     <div class="py-10">
-        <h1 class="text-5xl text-white font-bold" style="margin-left: 20px">
+        <a      href="/blog"
+                class="uppercase bg-gray-900 text-white text-lg font-bold py-2 px-4 rounded-3xl">
+                back
+            </a>
+        <h1 class="text-5xl text-white font-bold" style="margin-left: 20px; margin-top:20px;">
             {{ $post->title }}
         </h1>
     </div>
