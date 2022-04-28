@@ -7,16 +7,16 @@ This repository is inspired by the video at this link [this youtube video](https
 •	Instagram: [@codewithdary](https://www.instagram.com/codewithdary/) <br>
 
 ## Visuals of the final website
-•	Main page
+### Main page
 ![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/mainPage.JPG)
 ![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/mainPage2.JPG)
 
-•	Blog page
+### Blog page
 ![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/blogPage.JPG)
 ![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/blogPage2.JPG)
 ![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/blogPage3.JPG)
 
-•	Movie page
+### ,Movie page
 ![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/moviePage.JPG)
 ![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/moviePage2.JPG)
 ![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/moviePage3.JPG)
