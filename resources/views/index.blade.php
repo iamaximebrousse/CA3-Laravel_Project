@@ -71,11 +71,13 @@
         </span>
 
         <h2 class="text-4xl font-bold py-10 text-white">
-            New movies
+            Find your favorite movie in our selection
         </h2>  
-        <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
-        </p>
+        <a 
+                href="/movies"
+                class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
+                Find a movie
+            </a>
         
     </div>
     </div>
