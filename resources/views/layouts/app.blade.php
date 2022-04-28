@@ -14,6 +14,7 @@
     
     <!-- Styles -->
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+    <link rel="icon" href="https://www.designfreelogoonline.com/wp-content/uploads/2019/03/00132-Triangle-PLAY-logo-03.png">
 </head>
 <body class="bg-gray-700 h-screen antialiased leading-none font-sans">
     <div id="app">
