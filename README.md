@@ -8,18 +8,18 @@ This repository is inspired by the video at this link [this youtube video](https
 
 ## Visuals of the final website
 •	Main page
-![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/mainPage.jpg)
-![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/mainPage2.jpg)
+![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/public/images/mainPage.jpg)
+![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/public/images/mainPage2.jpg)
 
 •	Blog page
-![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/blogPage.jpg)
-![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/blogPage2.jpg)
-![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/blogPage3.jpg)
+![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/public/images/blogPage.jpg)
+![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/public/images/blogPage2.jpg)
+![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/public/images/blogPage3.jpg)
 
 •	Movie page
-![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/moviePage.jpg)
-![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/moviePage2.jpg)
-![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/main/public/images/moviePage3.jpg)
+![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/public/images/moviePage.jpg)
+![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/public/images/moviePage2.jpg)
+![alt text](https://github.com/iamaximebrousse/CA3-Laravel_Project/blob/public/images/moviePage3.jpg)
 
 
 ## Requirements
